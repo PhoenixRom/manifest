@@ -5,7 +5,7 @@
            fetch="https://github.com" />
   
   <remote  name="phx"
-           fetch="https://github.com/PhoenixOS"
+           fetch="https://github.com/ProjectPheonix"
            revision="refs/heads/9.0" />
 
   <!-- PhoenixOS -->

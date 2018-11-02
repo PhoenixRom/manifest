@@ -3,7 +3,7 @@ PhoenixOS
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PhoenixOS/manifest.git -b 9.0
+	repo init -u https://github.com/ProjectPheonix/manifest.git -b 9.0
   
  Then to sync up:
 
