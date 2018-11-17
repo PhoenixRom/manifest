@@ -7,7 +7,11 @@
   <remote  name="phx"
            fetch="https://github.com/ProjectPheonix"
            revision="refs/heads/9.0" />
-
+  
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
+  
   <!-- PhoenixOS -->
   <project path="manifest" name="manifest" remote="phx" />
   <project path="build/make" name="android_build" remote="phx" >
@@ -27,5 +31,6 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="phx" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="phx" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="phx" />
-
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="lineage" />
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="lineage" />
 </manifest>
