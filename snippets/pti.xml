@@ -23,6 +23,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/soong" name="build_soong"  remote="pti" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  <project path="bionic" name="bionic" remote="pti" />
+  <project path="frameworks/base" name="frameworks_base" remote="pti" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pti" />
   <project path="vendor/pti" name="vendor_pti" remote="pti" />
 
 </manifest>
