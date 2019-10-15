@@ -4,7 +4,7 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <remote  name="pti"
+  <remote  name="titanium"
            revision="10.0"
            fetch="https://github.com/Project-Titanium/"
            sync-j="8" />
@@ -13,7 +13,7 @@
   <include name="snippets/remove.xml" />
 
 
-  <project path="build/make" name="build" groups="pdk" remote="pti" >
+  <project path="build/make" name="build" groups="pdk" remote="titanium" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,14 +23,14 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="build_soong"  remote="pti" >
+  <project path="build/soong" name="build_soong"  remote="titanium" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-  <project path="bionic" name="bionic" remote="pti" />
-  <project path="frameworks/base" name="frameworks_base" remote="pti" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="pti" />
-  <project path="vendor/pti" name="vendor_pti" remote="pti" />
+  <project path="bionic" name="bionic" remote="titanium" />
+  <project path="frameworks/base" name="frameworks_base" remote="titanium" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="titanium" />
+  <project path="vendor/titanium" name="vendor_titanium" remote="titanium" />
 
 </manifest>

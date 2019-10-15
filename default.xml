@@ -729,7 +729,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- PTI repos -->
-  <include name="snippets/pti.xml" />
+  <!-- Titanium repos -->
+  <include name="snippets/titanium.xml" />
 
 </manifest>
