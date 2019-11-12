@@ -34,7 +34,9 @@
   <project path="frameworks/native" name="frameworks_native" remote="titanium" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="titanium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="titanium" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="titanium" />
   <project path="vendor/titanium" name="vendor_titanium" remote="titanium" />
+  <project path="vendor/extras" name="vendor_extras" remote="titanium" />
   <project path="vendor/themes" name="vendor_themes" remote="titanium" />
 
 </manifest>
