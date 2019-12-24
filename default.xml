@@ -787,5 +787,6 @@
   <include name="snippets/remove.xml" />
   <!-- Track Titanium repos -->
   <include name="snippets/titanium.xml" />
-
+  <!-- Track LineageOS repos -->
+  <include name="snippets/lineage.xml" />
 </manifest>
