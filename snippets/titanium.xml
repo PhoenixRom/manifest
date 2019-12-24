@@ -9,10 +9,6 @@
            fetch="https://github.com/Project-Titanium/"
            sync-j="8" />
 
-  <!-- Removal Xml -->
-  <include name="snippets/remove.xml" />
-
-
   <project path="build/make" name="build" groups="pdk" remote="titanium" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />

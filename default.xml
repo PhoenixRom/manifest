@@ -729,7 +729,13 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Removal xml -->
+  <include name="snippets/remove.xml" />
+
   <!-- Titanium repos -->
   <include name="snippets/titanium.xml" />
+
+  <!-- LineageOS repos -->
+  <include name="snippets/lineage.xml" />
 
 </manifest>
