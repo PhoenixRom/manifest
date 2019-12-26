@@ -32,6 +32,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />  
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Prebuilts repos -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />

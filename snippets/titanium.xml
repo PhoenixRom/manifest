@@ -34,6 +34,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="titanium" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" groups="pdk-fs" remote="titanium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="titanium" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-fs" remote="titanium" />
   <project path="system/sepolicy" name="system_sepolicy" remote="titanium" />
   <project path="vendor/titanium" name="vendor_titanium" remote="titanium" />
   <project path="vendor/extras" name="vendor_extras" remote="titanium" />
