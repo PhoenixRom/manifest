@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://imgur.com/BE42Ahl" > 
+<img src="https://i.imgur.com/BE42Ahl.png" > 
 </p>
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
